@@ -1,4 +1,8 @@
 
+# Programming-Assignment-2
+Week 3 Assignment lexical scoping 
+#Programming assignment 2, Week3 
+
 makeVector <- function(x = numeric()) {
       m <- NULL
       set <- function(y) {
@@ -24,6 +28,7 @@ cachemean <- function(x, ...) {
       x$setmean(m)
       m
 }
+
 
 makeCacheMatrix<- function(x = matrix){
       inv <- NULL
@@ -53,7 +58,6 @@ cacheSolve <- function(x, ...){
       
       inv
 }
-
 ##For assessing 
 m <- matrix(c(1,2,3,4), 2, 2) 
 
